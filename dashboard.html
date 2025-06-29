@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Kurta</title>
+</head>
+<body>
+  <h2>Add Product</h2>
+  <input type="text" id="photoURL" placeholder="Photo URL"><br><br>
+  <input type="text" id="price" placeholder="Price"><br><br>
+  <button onclick="addProduct()">Add Product</button>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Live Products:</h3>
+  <div id="productList"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-database-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
